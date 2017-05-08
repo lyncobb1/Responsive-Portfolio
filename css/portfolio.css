@@ -1,0 +1,205 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+body {
+	background-image: url("../images/128-29.jpg");
+	background-attachment: fixed;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('fonts/www.fontsquirrel.com');
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+h1 {
+	display: inline;
+	float: left;
+	width: 200px;
+	margin-left: 150px;
+	padding: 25px;
+	background-color: #4aaaa5;
+	font-family: Kaushan Script, Georgia, serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 180px;
+	padding-top: 10px;
+	font-size:18px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+nav li:after {
+	content: "|";
+	padding: 0 .25em;
+}
+
+ul li:last-child:after {
+    content: "";
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+section h2 {
+	padding: 5px;
+	color: #4aaaa5;
+	font-size: 30px;
+	margin-left: 36px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.sectionBox {
+	color: #777777;
+	margin-bottom: 15px;
+	height: 10px;
+	width: 90%;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+.media-1 {
+	color: #777777;
+	margin-bottom: 5px;
+	height: 10px;
+	width: 90%;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+#mediaBox h3 {
+	color: #4aaaa5;
+	font-size: 24px;	
+}
+
+section #sectionPortfolio {
+	float: left;
+	width: 650px;
+	height: 675px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-right: 5px;	
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #777777;
+	border: 1px solid #cccccc;
+	padding: 20px;
+}
+
+section #sectionPortfolio img {
+	height: 140px;
+	width: 240px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+	
+aside #mediaBox {
+	height: 205px;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	text-align: center;
+	float: right;
+	border: 1px solid #cccccc;
+}
+
+aside #mediaBox img {
+	display: inline;
+	height: 55px;
+	width: 55px;
+	margin-top: 25px;
+	margin-left: 15px;	
+	margin-right: auto;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	padding: .05px;
+	clear: both;
+	background-color: #666666;
+	height: 60px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 70%;
+	}
+
+	section #sectionPortfolio {
+		width: 345px;
+		height: 950px;
+	}
+
+	section #sectionPortfolio img {
+		width: 215px;
+		height: 145px;
+		margin-left: 35px;	
+	}
+
+	aside #mediaBox {
+		width: 40%;
+	}
+
+@media screen and (max-width: 768px){
+		#wrapper {
+			width: 90%;
+			background-color: black;
+		}
+	 	
+	 	section #sectionPortfolio {
+	 		width: 575px;
+	 		height: 600px;
+	 	}
+
+	 	aside #mediaBox {
+			width: 90%;
+			margin-right: 45px;
+			margin-bottom: 10px;
+	 	}
+
+	 	h1 {
+	 		margin-left: 25px;
+	 	}
+
+		aside #mediaBox img {
+			float: left;
+			margin-left: 30px;
+		}
+
+		aside h3 {
+			font-size: 24px;
+			margin-left: 35px;
+			text-align: left;
+		}

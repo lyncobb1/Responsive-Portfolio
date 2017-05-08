@@ -1,0 +1,287 @@
+
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+body {
+	background-image: url("../images/128-29.jpg");
+	background-attachment: fixed;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('fonts/www.fontsquirrel.com');
+}
+
+
+#header {
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+	position: static;
+}
+
+h1 {
+	display: inline;
+	float: left;
+	width: 200px;
+	margin-left: 150px;
+	padding: 25px;
+	background-color: #4aaaa5;
+	font-family: Kaushan Script, Georgia, serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 180px;
+	padding-top: 10px;
+	font-size:18px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+nav li:after {
+	content: "|";
+	padding: 0 .25em;
+}
+
+ul li:last-child:after {
+    content: "";
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+h2 {
+	padding: 5px;
+	color: #4aaaa5;
+	font-size: 28px;
+	margin-left: 36px;
+	margin-bottom: 5px;
+	margin-top: 18px;
+}
+
+section hr {
+	margin-bottom: 15px;
+	height: 10px;
+	width: 90%;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+
+}
+
+section #sectionBio {
+	float: left;
+	width: 650px;
+	height: 450px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-right: 5px;	
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+}
+
+section #sectionBio img {
+	width: 195px;
+	height: 195px;
+	margin-left: 40px;
+	margin-right: 15px;
+	float: left;
+}
+
+p {
+   color: #777777;
+   margin-left: 40px;
+   margin-right: 40px;
+   line-height: 1.70em;
+   text-align: justify;
+   font-size: 18px;
+}
+
+aside hr {
+	margin-bottom: 5px;
+	height: 10px;
+	width: 80%;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 24px;	
+}
+	
+aside #mediaBox {
+	height: 205px;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	float: right;
+	border: 1px solid #cccccc;
+}
+
+aside #mediaBox img {
+	display: inline;
+	height: 55px;
+	width: 55px;
+	margin-top: 25px;
+	margin-left: 15px;	
+	margin-right: auto;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	padding: .05px;
+	clear: both;
+	background-color: #666666;
+	height: 75px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+	
+	header footer {
+		width: 100%;
+	}
+
+	#wrapper {
+		width: 65%;
+	}
+
+	section #sectionBio {
+		width: 50%;
+		height: 75%;
+	}
+
+	section #sectionBio img {
+		width: 80%;
+		margin-left: 25px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	aside #mediaBox img {
+		width: 20%;
+		height: 20%;
+	}
+
+	aside #mediaBox {
+		width: 40%;
+	}
+
+   
+
+	@media screen and (max-width: 768px) {
+		
+		#wrapper {
+			width: 90%;
+		}
+
+		h1 {
+			margin-left: 40px;
+		}
+
+		h2  {
+			justify-content: flex-start;
+			font-size: 26px;
+		}
+
+		nav {
+			margin-left: 90px;
+		}
+
+		section #sectionBio {
+			width:100%;
+			margin: 0px;
+			margin-top: 20px;
+		}
+
+		section #sectionBio img {
+			width: 85%;
+			padding: 10px;
+		}
+
+		p {
+			line-height: 1em;
+			justify-content: flex-start;
+		}
+
+		aside #mediaBox {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+
+
+		aside #mediaBox img {
+			width: 17%;
+			height: 17%;
+			float: left;
+			margin-left: 35px;
+		}
+
+		aside hr {
+			width: 90%;
+		}
+
+		aside h3 {
+			font-size: 24px;
+			margin-left: 35px;
+			text-align: left;
+		}
+
+		
+	@media screen and (max-width: 640px) {
+		#wrapper {
+			width: 50%;
+			}
+
+		header {
+			position: static;
+		}
+
+		h1 {
+			width: 100%;
+			margin-left: 0;
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+	
+		
+	
+
+
+
+	
+
+

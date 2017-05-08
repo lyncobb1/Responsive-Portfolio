@@ -1,0 +1,167 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+body {
+	background-image: url("../images/128-29.jpg");
+	background-attachment: fixed;
+	width: 100%;
+	margin: 0 auto;	
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('fonts/www.fontsquirrel.com');
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+h1 {
+	display: inline;
+	float: left;
+	width: 200px;
+	margin-left: 150px;
+	padding: 25px;
+	background-color: #4aaaa5;
+	font-family: Kaushan Script, Georgia, serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 180px;
+	padding-top: 10px;
+	font-size:18px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+nav li:after {
+	content: "|";
+	padding: 0 .25em;
+}
+
+ul li:last-child:after {
+    content: "";
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+section #contactBox {
+	float: left;
+	width: 650px;
+	height: 440px;
+	background-color: #ffffff;
+	margin-top: 10px;	
+	margin-left: 20px;
+	margin-bottom: 35px;
+	color: #777777;
+	border: 1px solid #cccccc;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-right: 40px;	
+}
+
+
+section #contactBox h2 {
+	color: #4aaaa5;
+	font-size: 26px;
+}
+
+section #contactBox hr {
+	padding: 10px;
+	color: #777777;
+	margin-bottom: 5px;
+	height: 10px;
+	width: 570px;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+aside.media1 hr {
+	color: #777777;
+	margin-bottom: 5px;
+	height: 10px;
+	width: 185px;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+aside h3 {
+	color: #4aaaa5;
+	font-size: 24px;	
+}
+
+input {
+	width: 570px;
+	height: 30px;
+}
+
+textarea {
+	width: 255px;
+	height: 100px;
+}
+
+button {
+	width: 80px;
+	height: 40px;
+	background-color: #4aaaa5;
+}
+	
+aside #mediaBox {
+	height: 205px;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	text-align: center;
+	float: right;
+	border: 1px solid #cccccc;
+}
+
+aside #mediaBox img {
+	display: inline;
+	height: 55px;
+	width: 55px;
+	margin-top: 25px;
+	margin-left: 15px;	
+	margin-right: auto;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	padding: .05px;
+	clear: both;
+	background-color: #666666;
+	height: 75px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+
+
